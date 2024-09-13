@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  background-color: #f8f9fd;
+  padding: 11% 6% 15% 6%;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.left-tab {
+  background-color: white;
+  padding: 30px;
+}
+
+.left-tab h2 {
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.left-tab label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.left-tab .input-container input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f2f2f2;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.left-tab button {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 25px;
+  background-color: #ff4765;
+  color: white;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.left-tab #remember-checkbox {
+  display: inline;
+  background-color: aqua;
+}
+
+.left-tab .form-footer {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
+
+.left-tab .checkbox-container {
+  color: #ff4765;
+  display: inline-flex;
+}
+
+.left-tab input[type='checkbox'] {
+  accent-color: #ff4765;
+}
+
+.right-tab {
+  background-color: #ff4765;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.right-tab button {
+  background-color: unset;
+  border-color: white;
+  border-radius: 20px;
+  color: white;
+  margin-top: 6px;
+  padding: 10px;
+  width: 120px;
+}
+
+.right-tab h1 {
+  margin: 0px;
+}
